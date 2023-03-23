@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+nav {
+    margin: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+#login {
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #FFF;
+    background-color: #00f;
+}
+#login:hover {
+    text-decoration: none;
+    background-color: #0101c9;
+    box-shadow: 0px 1px 3px #777;
+}
+#dialpad {
+    padding: 15px;
+    border-radius: 50%;
+}
+#dialpad:hover {
+    background-color: #EEE;
+}
